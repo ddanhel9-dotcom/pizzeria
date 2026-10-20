@@ -1,0 +1,135 @@
+
+body {
+    background-color: #252525;
+    color: #F5F0E8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    color: #E86B45;
+    font-size: 50px;
+}
+
+h2 {
+    color: #E86B45;
+}
+
+nav {
+    margin-bottom: 30px;
+    border: 1px solid #E86B45;
+    padding: 15px;
+}
+
+nav a {
+    color: #F5F0E8;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #E86B45;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+.tlacitko {
+    display: inline-block;
+    background-color: #E86B45;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.tlacitko:hover {
+    background-color: #c95130;
+}
+body {
+    margin: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-top: 35px;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+.uvod {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 50px auto;
+    max-width: 1100px;
+}
+
+.uvod-text {
+    max-width: 500px;
+}
+
+.uvod-obrazek img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.vyhody {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.vyhoda {
+    border: 1px solid #E86B45;
+    padding: 15px;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.vyhoda h3 {
+    color: #E86B45;
+}
+
+@media (max-width: 700px) {
+    .uvod {
+        flex-direction: column;
+    }
+
+    .vyhody {
+        flex-direction: column;
+    }
+}
+
+footer {
+    background-color: #1b1b1b;
+    border-top: 1px solid #E86B45;
+    padding: 20px;
+    margin-top: 60px;
+    color: #F5F0E8;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 8px;
+}
+
+footer p:first-child {
+    color: #E86B45;
+    font-size: 20px;
+    font-weight: bold;
+}
+
